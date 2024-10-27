@@ -31,15 +31,15 @@ Dependências
   
 - Jackson
 
-Frontend
+## Frontend
 
-Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
 - HTML/CSS
   
 - JavaScript (ou outro framework que você esteja usando
   
-Como Executar
+### Como Executar
 
 Navegue até a pasta /frontend.
 
