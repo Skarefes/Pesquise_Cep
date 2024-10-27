@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CEP</title>
+</head>
+<body>
+    <h1> Procure um endereço: </h1>
+    <h2>Digite um CEP:</h2>
+    <label for="cep">Digite o CEP</label>
+    <input type="text" id="cep" placeholder="Ex: 1234-5678">
+    <button onclick="ConsultarCEP()">Consultar</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Campo</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody id="resultado">
+            <tr>
+                <td>CEP</td>
+                <td id="cepResultado"></td>
+            </tr>
+            <tr>
+                <td>Logradouro</td>
+                <td id="logradouroResultado"></td>
+            </tr>
+            <tr>
+                <td>Bairro</td>
+                <td id="bairroResultado"></td>
+            </tr>
+            <tr>
+                <td>Localidade</td>
+                <td id="localidadeResultado"></td>
+            </tr>
+            <tr>
+                <td>UF</td>
+                <td id="ufResultado"></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
