@@ -37,8 +37,8 @@ Dependências
 
 - HTML/CSS
   
-- JavaScript (ou outro framework que você esteja usando
-  
+- JavaScript
+
 ### Como Executar
 
 Navegue até a pasta /frontend.
